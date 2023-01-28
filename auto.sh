@@ -8,7 +8,7 @@ do
 	#Subdomain enumeration
 	echo " "
 	echo "[-] Subdomain enumeration"
-	amass enum -config ~/Documents/config.ini -silent -d $maindomain -o domains
+	amass enum -config ${AMASS_CONFIG} -silent -d $maindomain -o domains
 	echo "Amass Done!"
 	subfinder -d $maindomain -silent | anew -q domains
 	echo "Subfinder Done!"
