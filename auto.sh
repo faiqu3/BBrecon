@@ -52,7 +52,7 @@ do
 	echo ""
 	echo "[-] Screenshot"
 	echo ""
-	python3 ~/EyeWitness/Python/EyeWitness.py -f http --web 	
+	python3 ~/EyeWitness/Python/EyeWitness.py -f http --no-prompt --web 	
 
 	#subdomain takeover
 	echo ""
